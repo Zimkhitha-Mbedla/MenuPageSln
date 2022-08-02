@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenuPage.MainPage">
+
+    <StackLayout >
+       
+        <Frame BackgroundColor="White" Padding="24" CornerRadius="0">
+            <Image Source="images.png" WidthRequest="800" Background="transparent"></Image>
+            
+        </Frame>
+        <Label Text="Recycle Made Easier" FontSize="16" Padding="100,10,20,10"/>
+        <Label Text="" FontSize="16" Padding="30,0,30,0"/>
+        <Label >
+            <Label.FormattedText>
+                <FormattedString>
+                    
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Button Text="Recycle Waste"  BackgroundColor="LightGreen" WidthRequest="30"  HeightRequest="70" CornerRadius="70" Margin="30, 10" Clicked="Button_Clicked"></Button>
+        <Button Text="Thrift Stores" BackgroundColor="LightGreen" HeightRequest="70" CornerRadius="50" Margin="30, 10"></Button>
+        <Button Text="Learn" BackgroundColor="LightGreen" HeightRequest="70" CornerRadius="50" Margin="30, 10"></Button>
+        <Button Text="Recycle Buddy" BackgroundColor="LightGreen" HeightRequest="70" CornerRadius="50" Margin="30, 10" ></Button>
+    </StackLayout>
+    
+</ContentPage>
