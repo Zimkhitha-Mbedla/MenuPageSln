@@ -15,9 +15,24 @@ namespace MenuPage
             InitializeComponent();
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void RecycleWaste_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Page());
+            Navigation.PushAsync(new RecycleWaste());
+        }
+
+        private void ThriftStores_Clicked_1(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ThriftStores());
+        }
+
+        private void Learn_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Learn());
+        }
+
+        private void RecycleBuddy_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new RecycleBuddy());
         }
     }
 }
